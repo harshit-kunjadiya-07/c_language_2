@@ -20,13 +20,13 @@ void main()
 
     for (i=0;str[i] != '\0';i++)
     {
-	flag = 1;
-	for (j=0;j<i;j++)
+		flag = 1;
+		for (j=0;j<i;j++)
 	{
 	    if(str[i] == str[j])
 	    {
-		flag = 0;
-		break;
+			flag = 0;
+			break;
 	    }
 	}
 
@@ -35,15 +35,15 @@ void main()
 	    count = 0;
 	    for (j=0; str[j] != '\0';j++)
 	    {
-		if (str[i] == str[j])
-		{
-		    count++;
-		}
+			if (str[i] == str[j])
+			{
+		   		count++;
+			}
 	    }
 
 	    printf("%c => %d\n", str[i], count);
 	}
-    }
+}
 
     getch();
 }
