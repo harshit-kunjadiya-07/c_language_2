@@ -21,17 +21,21 @@ void main()
 
     for (i=0;i<j;i++,j--)
     {
-	if (str[i] != str[j])
-	{
-	    flag = 0;
-	    break;
-	}
+		if (str[i] != str[j])
+		{
+	    	flag = 0;
+	    	break;
+		}
     }
 
     if (flag == 1)
-	printf("\nThe given string is a Palindrome.");
+	{
+		printf("\nThe given string is a Palindrome.");
+	}
     else
-	printf("\nThe given string is Not a Palindrome.");
+	{
+		printf("\nThe given string is Not a Palindrome.");
+	}
 
     getch();
 }
