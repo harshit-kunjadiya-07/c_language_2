@@ -1,4 +1,4 @@
-x/*
+/*
 	author : harshit
 	doc : 20/07/26
 	object : pr7
